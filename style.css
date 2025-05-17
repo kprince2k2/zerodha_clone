@@ -4,7 +4,10 @@
     align-items: center;  
     justify-content: space-between; 
     padding: 0.5vw 3vw;  
-    border-bottom: 1px solid rgb(226, 223, 223);         
+    border-bottom: 1px solid rgb(226, 223, 223);   
+    position: sticky;
+    top: 0px;
+    background-color: white;      
 }
 
 #nav{
@@ -63,14 +66,14 @@
     font-size: 1.5vw;
     color: rgb(61, 59, 59);
 }
-#btn{
+.btn{
     height: 5vw;
     margin-top: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#btn button{
+.btn button{
     background-color: rgb(39, 123, 248);
     color: white;
     height: 3.4vw;
@@ -79,7 +82,7 @@
     border-radius: .2vw;
     font-size: 1.3vw;
 }
-#btn button:hover{
+.btn button:hover{
     background-color: rgb(0, 0, 0);
     color: white;
     height: 3.4vw;
@@ -157,17 +160,16 @@
     align-items: center;
     font-family: 'Inter', sans-serif;
     color: rgb(66, 64, 64);
-    margin-top: 4vw;
+    margin-top: 7vw;
     padding-left: 5%;
 }
 #pricing-txt{
     width: 35%;
-    padding-left: 1vw;
+    padding-left: 2vw;
     font-size: 1.3vw;
 }
 #pricing-txt div{
     font-size: 2.5vw;
-    padding: 1vw;
 }
 #pricing-img{
     width: 60%;
@@ -181,13 +183,62 @@
 .pricing-img-div{
     font-size: 0.8vw;
     width: 7vw;
-    float: left;
     height: 3vw;
-    position: relative;
-    top: 2vw;
+    padding-top: 2vw;
 }
-#links{
-    font-size: 1.5vw;
+
+.links{
+    font-size: 1.3vw;
     font-family: 'Inter', sans-serif;
-    padding-left: 7vw;
+    padding-left: 2vw;
+    color: rgb(39, 123, 248);
+}
+#links:hover{
+    color: black;
+}
+
+#varsity{
+    font-family: 'Inter', sans-serif;
+    color: rgb(66, 64, 64);
+    padding: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#varsity-img{
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#varsity-img img{
+    height: auto;
+    width: 70%;
+}
+
+.varsity-div{
+    padding: 1vw;
+    margin-left: 1vw;
+    font-size: 1.3vw;
+}
+#varsity-text{
+    width: 50%;
+}
+#varsity-heading{
+    padding: 2vw;
+    font-size: 2.4vw;
+    color: rgb(58, 58, 58);
+}
+
+#zerodha-signup div{
+    font-family: 'Inter', sans-serif;
+    color: rgb(66, 64, 64);
+    padding: 1vw;
+    font-size: 1.2vw;
+}
+#zerodha-signup div:first-child{
+    padding-top: 2vw;
+    font-size: 2.5vw;
 }
